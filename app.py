@@ -81,7 +81,7 @@ df_filtrado =df[
 ]
 
 st.title("Dashboard de Análise de Salários na Área de Dados")
-st.markdown("Exprore os dados salariais na área de dados no ùltimos anos. Utilize os filtros à esquerda para fazer sua análise")
+st.markdown("Explore os dados salariais na área de dados no ùltimos anos. Utilize os filtros à esquerda para fazer sua análise")
 
 
 # Métricas Principais
@@ -220,4 +220,5 @@ with col_graf4:
         st.warning('Nenhum dado para exibir no gráfico de países.')
 
 st.subheader("Dados Detalhados")
+
 st.dataframe(df_filtrado)
